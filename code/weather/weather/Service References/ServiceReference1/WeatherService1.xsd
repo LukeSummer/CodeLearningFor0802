@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/weather.Web.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/weather.Web.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Weather">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="weatherinfo" nillable="true" type="tns:weatherinfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Weather" nillable="true" type="tns:Weather" />
+  <xs:complexType name="weatherinfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="aftertomorrow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="date_y" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title12" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title5" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title6" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title7" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title8" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="img_title9" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temp1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temp2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temp3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temp4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temp5" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="temp6" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tomorrow" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="weather1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="weather2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="weather3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="weather4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="weather5" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="weather6" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="week" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="weatherinfo" nillable="true" type="tns:weatherinfo" />
+</xs:schema>
